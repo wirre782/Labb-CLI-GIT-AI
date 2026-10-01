@@ -12,14 +12,19 @@
 ### Genomförande
 
 1. En Ubuntu Server sattes upp i VirtualBox
-1. De virituella nätverkskorten ändrades till bridged så de två virituella maskinerna är på samma närverk
+1. De virituella nätverkskorten ändrades till bridged så de två virituella maskinerna är på samma närverk.
+1. Genomförde Linux delen av del 3, behövde tillåta ping i Windows Firewall
 
+![Text Test](pingLinux.png)
+
+---
 
 Tabell
 | hostname | Operativsystem | IP-adress | Subnät | Standard Gateway|
 | -------- | --------------- | --------- | ------ | ---------------|
-| VirtualBx | Windows 11 Professional | 192.168.50.1| 255.255.255.0| 192.168.50.1|
+| VirtualBx | Windows 11 Professional | 192.168.50.4| 255.255.255.0| 192.168.50.1|
 | ubuntuserver | Ubuntu Server 26.04.1 LTS | 192.168.50.123 | 255.255.255.0 | 192.168.50.1
+
 
 <!-- 1. Titel & Introduktion: Namn, datum, kurs och kort beskrivning av labbmiljön.
 2. Labbmiljö & Nätverk (Kursmål 8): Nätverkstabell och beskrivning av uppsättningen.
