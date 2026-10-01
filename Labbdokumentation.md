@@ -37,6 +37,20 @@ Jag använde prompten:
 
 Från min granskning var allt AI-n sa korrekt, det är antagligen på grund av att jag valde ett ganska grundläggande kommando som är väldokumenterat, om jag hade tagit ett lite mer oanvänt kommando så behöver jag vara mer varsam och dubbelkolla med andra källor, även flera som inte är AI. Chmod är också ett kommando som inte ändras och även om det finns andra kommandon för att ändra rättigheter i Linux så är ingen av dem objektivt bättre och på så sätt inte tagit över som standard kommandot gällande filrättigheter som har hänt vissa andra kommandon i linux, exempel ifconfig där man bör använda ip kommandot med rätt flaggor.
 
+
+Kommandot git log --oneline:
+```powershell
+PS D:\gitTest\Labb-git-cli-ai> git log --oneline
+f7ae97e (HEAD -> main, origin/main) Added README as a link file, hopefully this will work.
+dc983da Added Ai reflection and its promt as seperate .md file
+646e141 Added image for Windows part
+e473aa1 Added images for linux part
+a9944cb Added table of system info
+3446092 added pdf
+e43d52d first init
+```
+
+
 <!-- 1. Titel & Introduktion: Namn, datum, kurs och kort beskrivning av labbmiljön.
 2. Labbmiljö & Nätverk (Kursmål 8): Nätverkstabell och beskrivning av uppsättningen.
 3. Kommandoradsgenomförande (Kursmål 9): Steg-för-steg-dokumentation (med
