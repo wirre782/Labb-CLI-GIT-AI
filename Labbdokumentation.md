@@ -14,17 +14,28 @@
 1. En Ubuntu Server sattes upp i VirtualBox
 1. De virituella nätverkskorten ändrades till bridged så de två virituella maskinerna är på samma närverk.
 1. Genomförde Linux delen av del 3, behövde tillåta ping i Windows Firewall
+![Ping Test](pingLinux.png)
 
-![Text Test](pingLinux.png)
+1. Genomförde Windows delen
+![Windows Part](Windows.png)
 
 ---
 
 Tabell
 | hostname | Operativsystem | IP-adress | Subnät | Standard Gateway|
 | -------- | --------------- | --------- | ------ | ---------------|
-| VirtualBx | Windows 11 Professional | 192.168.50.4| 255.255.255.0| 192.168.50.1|
+| VirtualBox | Windows 11 Professional | 192.168.50.4| 255.255.255.0| 192.168.50.1|
 | ubuntuserver | Ubuntu Server 26.04.1 LTS | 192.168.50.123 | 255.255.255.0 | 192.168.50.1
 
+---
+
+## AI-logg & Reflektion
+Jag valde [Claud.ai](https://claude.ai) som mitt AI-verktyg.
+
+Jag använde prompten: 
+ *Du är en lärare inom linux system, förklara hur chmod kommandot fungerar i linux, bryt ner den steg för steg hur den fungerar och ge exempel hur man använder det i praktiken.* Och fick svaret, [så här såg det ut](Resultat.md).
+
+Från min granskning var allt AI-n sa korrekt, det är antagligen på grund av att jag valde ett ganska grundläggande kommando som är väldokumenterat, om jag hade tagit ett lite mer oanvänt kommando så behöver jag vara mer varsam och dubbelkolla med andra källor, även flera som inte är AI. Chmod är också ett kommando som inte ändras och även om det finns andra kommandon för att ändra rättigheter i Linux så är ingen av dem objektivt bättre och på så sätt inte tagit över som standard kommandot gällande filrättigheter som har hänt vissa andra kommandon i linux, exempel ifconfig där man bör använda ip kommandot med rätt flaggor.
 
 <!-- 1. Titel & Introduktion: Namn, datum, kurs och kort beskrivning av labbmiljön.
 2. Labbmiljö & Nätverk (Kursmål 8): Nätverkstabell och beskrivning av uppsättningen.
